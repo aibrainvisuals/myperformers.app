@@ -67,7 +67,7 @@ a:hover,
 /* line 34, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: #1887FC;
   outline: medium none;
 }
 
@@ -416,7 +416,7 @@ h3 {
 
 /* line 29, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7275FA+0,5db2ff+100 */
   background: #37EBED;
   color: #fff;
   display: inline-block;
@@ -458,7 +458,7 @@ h3 {
 /* line 60, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
 .boxed-btn4 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #0181F5;
+  background: #7275FA;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -482,7 +482,7 @@ h3 {
 
 /* line 79, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #0181F5;
+  background: #7275FA;
   color: #fff !important;
 }
 
@@ -1121,7 +1121,7 @@ h3 {
   left: 0;
   top: 160%;
   background: #fff;
-  width: 200px;
+  width: 220px;
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
   opacity: 0;
@@ -3404,7 +3404,7 @@ h3 {
 
 /* line 97, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_tesmonial.scss */
 .testmonial_area .owl-carousel .owl-nav div:hover {
-  background: #0181F5;
+  background: #7275FA;
 }
 
 /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
@@ -3439,15 +3439,15 @@ h3 {
 /* line 14, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
 .service_area .single_service .thumb {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #0181f5;
+  background: #7275FA;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: -moz-linear-gradient(left, #7275FA 0%, #5db2ff 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: -webkit-linear-gradient(left, #7275FA 0%, #5db2ff 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  background: linear-gradient(to right, #7275FA 0%, #5db2ff 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7275FA', endColorstr='#5db2ff',GradientType=1 );
   /* IE6-9 */
   width: 110px;
   height: 110px;
@@ -3577,7 +3577,7 @@ h3 {
 .service_area_2 .service_content_wrap .single_service span {
   font-size: 18px;
   font-weight: 300;
-  color: #0181F5;
+  color: #7275FA;
 }
 
 /* line 102, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
@@ -3870,7 +3870,7 @@ h3 {
 .prising_area .single_prising .prising_header span {
   font-size: 20px;
   font-weight: 500;
-  color: #0181F5;
+  color: #7275FA;
   line-height: 20px;
 }
 
@@ -3949,7 +3949,7 @@ h3 {
 
 /* line 30, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #ff5e13;
+  color: #7275FA;
 }
 
 /* line 36, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_contact.scss */
@@ -4079,7 +4079,7 @@ h3 {
 
 /* line 146, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_contact.scss */
 .contact-section .btn_2:hover {
-  background-color: #ff5e13;
+  background-color: #7275FA;
 }
 
 /* line 75, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
@@ -4100,7 +4100,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff5e13;
+  color: #7275FA;
 }
 
 /* line 93, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
@@ -4272,28 +4272,28 @@ h6 {
 /* line 217, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #ff5e13;
+  background: #7275FA;
   border: 1px solid transparent;
 }
 
 /* line 221, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .genric-btn.primary:hover {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: #7275FA;
+  border: 1px solid #7275FA;
   background: #fff;
 }
 
 /* line 227, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .genric-btn.primary-border {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: #7275FA;
+  border: 1px solid #7275FA;
   background: #fff;
 }
 
 /* line 231, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #ff5e13;
+  background: #7275FA;
   border: 1px solid transparent;
 }
 
@@ -4451,7 +4451,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #ff5e13;
+  border-left: 2px solid #7275FA;
 }
 
 /* line 353, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
@@ -4606,7 +4606,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #ff5e13;
+  border: 3px solid #181632;
   background: #fff;
   top: 4px;
   left: 0;
@@ -4621,7 +4621,7 @@ h6 {
 /* line 475, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #ff5e13;
+  color: #7275FA;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4636,7 +4636,7 @@ h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #ff5e13;
+  color: #7275FA;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4651,7 +4651,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #ff5e13;
+  color: #7275FA;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4734,7 +4734,7 @@ h6 {
 /* line 568, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #ff5e13;
+  border: 1px solid #7275FA;
 }
 
 /* line 574, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
@@ -4802,7 +4802,7 @@ h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #ff5e13;
+  background: #7275FA;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -4893,7 +4893,7 @@ h6 {
 
 /* line 696, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .primary-switch input:checked + label:before {
-  background: #ff5e13;
+  background: #7275FA;
 }
 
 /* line 704, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
@@ -5280,13 +5280,13 @@ h6 {
 
 /* line 1022, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #ff5e13;
+  color: #7275FA;
   background: transparent;
 }
 
 /* line 1026, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #ff5e13;
+  color: #7275FA;
   background: transparent;
 }
 
@@ -5343,13 +5343,13 @@ h6 {
 
 /* line 1067, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #ff5e13;
+  color: #7275FA;
   background: transparent;
 }
 
 /* line 1071, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #ff5e13;
+  color: #7275FA;
   background: transparent;
 }
 
