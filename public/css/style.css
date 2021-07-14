@@ -1055,8 +1055,8 @@ h3 {
 
 /* line 143, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
-  text-align: center;
-  padding: 12px 0;
+  text-align: right;
+  padding: 0px 0;
 }
 
 /* line 147, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
