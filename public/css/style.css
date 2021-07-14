@@ -2013,6 +2013,14 @@ h3 {
   margin-bottom: 25px;
 }
 
+div .sub-header {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
 @media (max-width: 767px) {
   /* line 86, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_gallery.scss */
   .portfolio_details_area .portfolio_details_content h3 {
