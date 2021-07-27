@@ -1,6 +1,7 @@
 <?php
 
-    $to = "info@tokenplacement.com";
+    $to = "lipikadugar92@gmail.com";
+//     $to = "info@tokenplacement.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -33,5 +34,11 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
+
+    if( $send == true ) {
+                echo "Message sent successfully...";
+             }else {
+                echo "Message could not be sent...";
+             }
 
 ?>
