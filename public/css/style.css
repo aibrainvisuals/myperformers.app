@@ -3993,6 +3993,12 @@ div .sub-header {
   margin-bottom: 30px;
 }
 
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+  opacity: 0.3;
+}
+
 /* line 61, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_contact.scss */
 .form-contact .form-control {
   border: 1px solid #e5e6e9;

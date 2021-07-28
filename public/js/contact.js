@@ -55,6 +55,7 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
+                $('#btn-submit').attr('disabled','disabled');
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
@@ -64,11 +65,12 @@ $(document).ready(function(){
                         console.log(data);
                          $("#contactForm")[0].reset();
                          $("#successMessage").show().delay(3000).fadeOut();
+                         $('#btn-submit').removeAttr('disabled');
                     },
                     error: function(data) {
                         console.log('An error occurred.');
                         console.log(data);
-
+                        $('#btn-submit').removeAttr('disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');
