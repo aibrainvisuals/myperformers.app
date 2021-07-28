@@ -58,7 +58,7 @@ $(document).ready(function(){
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
-                    url:"https://9xworks.com/email/contact_process.php",
+                    url:"https://hashgrow.com/contact_process.php",
                     success: function(data) {
                         console.log('Submission was successful.');
                         console.log(data);
