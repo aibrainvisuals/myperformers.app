@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     (function($) {
-        "use strict";
+//        "use strict";
 
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
@@ -51,7 +51,7 @@ $(document).ready(function(){
                 },
                 message: {
                     required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    minlength: "The message must consist of at least 20 characters"
                 }
             },
             submitHandler: function(form) {
@@ -59,23 +59,22 @@ $(document).ready(function(){
                     type:"POST",
                     data: $(form).serialize(),
                     url:"https://9xworks.com/email/contact_process.php",
-                    success: function() {
-                        $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
-                            $('.modal').modal('hide');
-		                	$('#success').modal('show');
-                        })
+                    success: function(data) {
+                        console.log('Submission was successful.');
+                        console.log(data);
+                         $("#contactForm")[0].reset();
+                         $("#successMessage").show().delay(3000).fadeOut();
                     },
-                    error: function() {
+                    error: function(data) {
+                        console.log('An error occurred.');
+                        console.log(data);
+
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');
 		                	$('#error').modal('show');
                         })
-                    }
+                    },
                 })
             }
         })
